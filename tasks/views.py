@@ -9,3 +9,8 @@ def contact(request):
     return HttpResponse("<h1>manager</h1>")
 def show_task(request):
     return HttpResponse("<h1>manager gsdhjsdjkghrfwgu</h1>")
+
+def show_specific_task(request,id):
+    print("id",id)
+    print("id type:", type(id))
+    return HttpResponse("this is show_specific_task")
